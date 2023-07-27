@@ -24,7 +24,7 @@ namespace instance.id.HierarchyHeader
         // @formatter:off --------------------------- SelectSettingsObject
         // -- Main menu item to select and configure AAI settings       --
         // -- SelectSettingsObject ---------------------------------------
-        [MenuItem("Tools/instance.id/HierarchyHeader Settings", false)]
+        [MenuItem("Window/HierarchyHeader Settings", false)]
         public static void SelectSettingsObject() // @formatter:on
         {
             Selection.objects = new Object[] {HHSettings()};
